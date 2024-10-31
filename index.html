@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>零號計劃 - 機器人更新進度</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/bot-icon.png" alt="機器人圖標" class="bot-icon">
+        <h1>零號計劃 - Discord 機器人更新進度</h1>
+    </header>
+    <main>
+        <section id="updates">
+            <h2>更新進度</h2>
+            <div id="latest-update">
+                <h3>最新版本：v3.8.0</h3>
+                <p>更新日期：2024-10-31</p>
+                <ul>
+                    <li>新增計算指令</li>
+                    <li>改善魚類資料讀取速度</li>
+                    <li>修正經濟系統的漏洞</li>
+                </ul>
+                <img src="images/update-image.png" alt="更新示例圖片" class="update-image">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+                <p>進度：75%</p>
+            </div>
+            <button onclick="loadMoreUpdates()">查看更多更新</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
