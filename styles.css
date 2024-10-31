@@ -97,6 +97,8 @@ button:hover {
 }
 
 .extra-button {
+    display: inline-flex;
+    align-items: center;
     padding: 10px 20px;
     font-size: 1em;
     color: #ffffff;
@@ -115,7 +117,8 @@ button:hover {
 }
 
 .button-icon {
-    width: 20px;
-    height: 20px;
-    margin: 8px;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
 }
