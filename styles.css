@@ -122,3 +122,23 @@ button:hover {
     margin-right: 8px;
     vertical-align: middle;
 }
+
+.invite-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #585858;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.invite-button:hover {
+    background-color: #4752c4;
+}
