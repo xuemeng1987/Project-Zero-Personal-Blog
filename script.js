@@ -1,6 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
     const loader = document.getElementById("loader");
-    loader.style.display = "none";
+    loader.style.display = "flex";
+
+    setTimeout(() => {
+        loader.style.display = "none";
+    }, 2000);
 
     function updateImage(newImagePath) {
         const updateImageElement = document.querySelector(".update-image");
