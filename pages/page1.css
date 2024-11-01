@@ -94,3 +94,15 @@ nav {
     50% { opacity: 0.2; }
     100% { opacity: 1; }
 }
+
+.image-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
