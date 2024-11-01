@@ -45,27 +45,30 @@ nav {
     text-align: center;
 }
 
-.nav-menu {
-    list-style-type: none;
-    margin: 0;
+nav {
+    background-color: transparent;
     padding: 0;
-    display: flex;
-    justify-content: center;
+    margin-top: -15px;
 }
 
-.nav-menu li {
-    margin: 0 15px;
+.nav-menu {
+    background-color: #8888de;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
 }
 
 .nav-menu a {
     color: #fff;
+    padding: 8px 12px;
     text-decoration: none;
     font-size: 1.1em;
-    padding: 5px 10px;
+    border-radius: 4px;
 }
 
 .nav-menu a:hover {
-    color: #87ceeb;
+    background-color: #6b6b8d;
 }
 
 #loader {
