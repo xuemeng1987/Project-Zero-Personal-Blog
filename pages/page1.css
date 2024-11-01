@@ -64,6 +64,8 @@ nav {
 
 .nav-menu li {
     margin: 10px 0;
+    transform: rotate(0deg);
+    margin-right: 20px;
 }
 
 .nav-menu a {
