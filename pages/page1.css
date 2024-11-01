@@ -52,23 +52,35 @@ nav {
 }
 
 .nav-menu {
-    background-color: #8888de;
-    padding: 10px 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.nav-menu li {
+    margin: 10px 0;
 }
 
 .nav-menu a {
     color: #fff;
-    padding: 8px 12px;
     text-decoration: none;
-    font-size: 1.1em;
-    border-radius: 4px;
+    padding: 15px 30px;
+    font-weight: bold;
+    background-color: #8888de;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+    width: 100px;
 }
 
 .nav-menu a:hover {
-    background-color: #6b6b8d;
+    background-color: #87ceeb;
+    color: #333;
+    text-shadow: none;
 }
 
 #loader {
