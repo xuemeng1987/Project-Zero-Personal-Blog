@@ -16,3 +16,8 @@ function changeToGif() {
 }
 
 document.querySelector("button").addEventListener("click", changeToGif);
+
+document.addEventListener("DOMContentLoaded", function () {
+    const loader = document.getElementById("loader");
+    loader.style.display = "none";
+});
