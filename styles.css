@@ -142,3 +142,16 @@ button:hover {
 .invite-button:hover {
     background-color: #4752c4;
 }
+
+.mobile-only {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .desktop-only {
+        display: none;
+    }
+    .mobile-only {
+        display: block;
+    }
+}
