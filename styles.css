@@ -139,6 +139,12 @@ button:hover {
     text-decoration: none;
 }
 
+.invite-button img {
+    width: 30px;
+    height: auto;
+    margin-left: 8px;
+}
+
 .invite-button:hover {
     background-color: #4752c4;
 }
